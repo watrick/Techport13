@@ -258,3 +258,7 @@ tfoot td:first-child{
     background-color: red;
 }}
 
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+}
+
