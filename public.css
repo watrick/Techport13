@@ -1,0 +1,260 @@
+.label_info {
+ margin-top:-10px;
+  padding-bottom:1em;
+}
+
+.date {
+float:right;
+padding-right: 2em;
+}
+
+p{
+margin: 0 0 5px;
+}
+
+.associate_remarks {
+margin-bottom:0px;
+}
+
+.brief_summary {
+  margin-bottom: 0px;
+}
+.action_to_be_taken {
+  margin-bottom: 0px;
+}
+.expanded_signature_label {
+  margin-top: 0;
+}
+
+.expanded_signature {
+ border: 0;
+    border-bottom: 1px solid #000;
+  	width: 100%;
+  margin-bottom: 1px;
+  margin-top: 2em;
+
+}
+
+.expanded_signature_associate{
+ border: 0;
+    border-bottom: 1px solid #000;
+  	width: 100%;
+  margin-bottom: 1px;
+  margin-top: 4em;
+
+}
+
+.expanded_signature_witness{
+ border: 0;
+    border-bottom: 1px solid #000;
+  	width: 100%;
+  margin-bottom: 1px;
+  margin-top: 5em;
+
+}
+
+.printHeader {
+ display:block;
+    margin:auto;
+  text-align:center;
+  padding-bottom: 2px;
+}
+
+#left_col_signature {
+width: 33%;
+  float:left;
+  display: inline-block;
+}
+
+#center_col_signature {
+width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+#right_col_signature {
+width: 33%;
+  float:right;
+  margin-left: auto;
+}
+
+#left_col {
+width: 60%;
+  float:left;
+display: inline-block;
+}
+#right_col {
+  width: 40%;
+  float:right;
+}
+
+.lineBreak_one {
+  border: 0;
+    border-bottom: 1px solid #000;
+  	width: 100%;
+  margin-bottom: 1px;
+  
+}
+
+.lineBreak_two {
+  border: 0;
+    border-bottom: 1px solid #000;
+  	width: 100%;
+  margin-bottom: 10px;
+  padding-top:1px;
+}
+.logo_header {
+display:block;
+    margin:auto;
+}
+
+#logo {
+  display:block;
+    margin:auto;
+}
+.signature {
+    border: 0;
+    border-bottom: 1px solid #000;
+  	width: 25em;
+      float: right;
+}
+
+.full_page {
+  
+ height:82vh;
+}
+
+.printer_row_one {
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: left;
+}
+
+.printer_row_two {
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: left;
+}
+
+.printer_row_three {
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: left;
+}
+
+
+
+.zui-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+  	width: 100%;
+}
+
+.zui-table thead th {
+    background-color: #FFFFFF;
+    color: #428BCA;
+    padding: 10px;
+    text-align: left;
+    font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+
+.zui-table tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+}
+
+.zui-table tfoot td {
+    background-color: #FFFFFF;
+    color: #fff;
+    text-align: left;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+table th:first-child{
+  border-radius:5px 0 0 0px;
+}
+
+table th:last-child{
+  border-radius:0 5px 0px 0;
+}
+
+tfoot td:first-child{
+  border-radius:0px 0 0px 5px;
+}
+
+
+.printer_label {
+  font-weight: bold;
+}
+.description {
+  font-style: italic;
+}
+
+#print_button {
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+  left: 0;
+  padding: 1rem;
+  text-align: left;
+  z-index: 1000;
+  width: 20em;
+  text-align:center;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: right;
+}
+
+.signature_label {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: right;
+  padding-right: 18em;
+  padding-bottom: 5em;
+}
+
+@media print {
+  #print_button {
+    display: none;
+  }
+}
+@media print {
+  .lineBreak_two {
+    border: 0;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top:1px;
+  }
+}
+
+
+@media print {
+  #logo {
+    background-color: red;
+}}
+
