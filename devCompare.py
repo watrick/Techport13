@@ -2,12 +2,15 @@ import requests
 import difflib
 import json
 import csv
-from subprocess import call
 import subprocess
 from pprint import pprint
 
 def compare():
-
+	"""Opens and parses csv file.
+	for each row perform a get on SN instances and compare records
+	write diff file of the deltas
+    """
+    
 	with open('sys_upgrade_history_log.csv', 'rb') as csvfile:
 		spamreader = csv.reader(csvfile, delimiter='\n')
 		for row in spamreader:
